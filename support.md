@@ -2,7 +2,7 @@
 
 For support, beta feedback, or privacy questions, contact:
 
-`a21147348a@connect.polyu.hk`
+`gliding_corers0h@icloud.com`
 
 When reporting an issue, please include:
 

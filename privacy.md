@@ -38,4 +38,4 @@ We may update this policy as Voiceform evolves. Updates will be posted on this p
 
 For privacy questions, contact:
 
-`a21147348a@connect.polyu.hk`
+`gliding_corers0h@icloud.com`
