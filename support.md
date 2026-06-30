@@ -4,6 +4,10 @@ For support, beta feedback, or privacy questions, contact:
 
 `gliding_corers0h@icloud.com`
 
+You can also leave public beta feedback or bug reports in GitHub Issues:
+
+https://github.com/Xanaxxxxxx/voiceform-showcase/issues
+
 When reporting an issue, please include:
 
 - device model
