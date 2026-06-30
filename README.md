@@ -1,11 +1,11 @@
-# Voiceland
+# Voiceform
 
 > Public Showcase
 
 Language: **English** | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)
 
 <p align="center">
-  <img src="Media/brand/voiceland-icon.png" alt="Voiceland icon" width="164" />
+  <img src="Media/brand/voiceform-icon.png" alt="Voiceform icon" width="164" />
 </p>
 
 ![Platform: iOS 26+](https://img.shields.io/badge/Platform-iOS%2026%2B-111827?style=flat-square)
@@ -16,16 +16,21 @@ Language: **English** | [繁體中文](README.zh-TW.md) | [简体中文](README.
 ![Runtime: TensorFlow Lite (Planned)](https://img.shields.io/badge/Runtime-TFLite_(Planned)-0f766e?style=flat-square)
 ![License: Proprietary](https://img.shields.io/badge/License-Proprietary-dc2626?style=flat-square)
 
-Voiceland is an on-device voice training app for pitch, resonance, vocal weight, and voice exploration.
+Voiceform is an on-device voice mirror for real-time pitch, resonance, thinness, and voice exploration.
 
 A calm, supportive iPhone experience for people shaping a voice that feels like their own.
 
-This repository is the public-facing documentation and image layer for Voiceland.
+This repository is the public-facing documentation and image layer for Voiceform.
+
+For App Store Connect and TestFlight review:
+
+- [Voiceform Privacy Policy](privacy.md)
+- [Voiceform Support](support.md)
 
 ## Overview
 
 - on-device voice practice experience on iPhone
-- live feedback across pitch, resonance, vocal weight, and constriction
+- live feedback across pitch, resonance, thinness, and articulation surfaces
 - architecture-first public overview (without shipping source code)
 
 ### Current Status
@@ -33,13 +38,13 @@ This repository is the public-facing documentation and image layer for Voiceland
 | Area | Status |
 |---|---|
 | iPhone app | Active development |
-| TestFlight | In preparation |
+| TestFlight | Internal beta |
 | Android | Planned |
 | Public repo scope | Curated showcase, not full product mirror |
 
 ### Brand Lens
 
-Voiceland is not intended to feel like a cold voice lab.
+Voiceform is not intended to feel like a cold voice lab.
 
 - supportive rather than judgmental
 - precise without becoming clinical
@@ -54,7 +59,7 @@ Voiceland is not intended to feel like a cold voice lab.
 
 ## Contributors
 
-This showcase reflects the product and engineering work tracked in the main Voiceland repository.
+This showcase reflects the product and engineering work tracked in the main Voiceform repository.
 
 <p align="left">
   <a href="https://github.com/Xanaxxxxxx">
@@ -70,7 +75,7 @@ This showcase reflects the product and engineering work tracked in the main Voic
 | [Xana](https://github.com/Xanaxxxxxx) | Lead Developer, HCI & iOS Engineering | `a21147348a@connect.polyu.hk` |
 | [Fan Lok Wai](https://github.com/antarfrica) | Research Lead, ML Systems & Voice Science | [GitHub](https://github.com/antarfrica) |
 
-[View contributor history](https://github.com/Xanaxxxxxx/Voiceland/graphs/contributors)
+[View contributor history](https://github.com/Xanaxxxxxx/Voiceform/graphs/contributors)
 
 ## Architecture
 
@@ -83,7 +88,7 @@ They describe system structure and responsibilities at a high level.
 
 ```text
 ┌─────────────────────────────────────────────────────────────────┐
-│  Features  (Practice · Learn · Summary · Auth)                 │
+│  Features  (Today/Home · Diary · Practice · Settings)          │
 │  Screen-level flows and interaction surfaces                   │
 ├─────────────────────────────────────────────────────────────────┤
 │  Shared                                                        │
@@ -163,7 +168,7 @@ Design intent:
 
 ```mermaid
 flowchart TD
-    APP["VoicelandApp"]
+    APP["VoiceformApp"]
     PROD["VoiceAnalysisSession\n(production)"]
     PREV["PreviewVoiceSession\n(preview)"]
     BASE["VoiceSessionBase boundary"]
@@ -254,8 +259,9 @@ The goal is to make architecture understandable in product terms.
 |---|---|
 | Runtime interface | `Runtime Interface` section above |
 | On-device ML boundary | `Core ML Boundary` section above |
-| Main security policy | [Voiceland/docs/security-audit.md](https://github.com/Xanaxxxxxx/Voiceland/blob/main/docs/security-audit.md) |
-| Main repository | [Voiceland main repository](https://github.com/Xanaxxxxxx/Voiceland) |
+| Privacy policy | [Voiceform Privacy Policy](privacy.md) |
+| Support | [Voiceform Support](support.md) |
+| Main repository | [Voiceform main repository](https://github.com/Xanaxxxxxx/Voiceform) |
 
 ## Repository Contents
 
@@ -267,7 +273,7 @@ The goal is to make architecture understandable in product terms.
 ## Repo Layout
 
 ```text
-voiceland-showcase/
+voiceform-showcase/
 ├── README.md
 ├── LICENSE
 └── Media/
@@ -275,4 +281,4 @@ voiceland-showcase/
 
 ## Why This Repo Exists
 
-Voiceland is a product where trust matters. This repo exists to communicate product direction, architecture boundaries, and design intent.
+Voiceform is a product where trust matters. This repo exists to communicate product direction, architecture boundaries, and design intent.
