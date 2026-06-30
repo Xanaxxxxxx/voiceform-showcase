@@ -38,7 +38,6 @@ For TestFlight and App Store review:
 | iPhone app | Active development |
 | TestFlight | Internal beta |
 | Android | Planned |
-| Public repo scope | Curated showcase, not full product mirror |
 
 ## Product Lens
 
@@ -53,11 +52,11 @@ The core loop is simple: speak, see live feedback, adjust, and try again when it
     <img src="https://github.com/Xanaxxxxxx.png?size=96" width="64" height="64" alt="Xana" style="border-radius:50%; object-fit:cover;" />
   </a>
   <a href="https://github.com/antarfrica">
-    <img src="https://github.com/antarfrica.png?size=96" width="64" height="64" alt="Fan Lok Wai" style="border-radius:50%; object-fit:cover;" />
+    <img src="https://github.com/antarfrica.png?size=96" width="64" height="64" alt="Jeff" style="border-radius:50%; object-fit:cover;" />
   </a>
 </p>
 
 | Contributor | Role | Contact |
 |---|---|---|
 | [Xana](https://github.com/Xanaxxxxxx) | Lead Developer, HCI & iOS Engineering | `gliding_corers0h@icloud.com` |
-| [Fan Lok Wai](https://github.com/antarfrica) | Research Lead, ML Systems & Voice Science | [GitHub](https://github.com/antarfrica) |
+| [Jeff](https://github.com/antarfrica) | Research Lead, ML Systems & Voice Science | [GitHub](https://github.com/antarfrica) |
